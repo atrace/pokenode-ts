@@ -84,7 +84,7 @@ export enum PokemonHabitats {
   CAVE = 1,
   FOREST = 2,
   GRASSLAND = 3,
-  MONTAIN = 4,
+  MOUNTAIN = 4,
   RARE = 5,
   ROUGH_TERRAIN = 6,
   SEA = 7,

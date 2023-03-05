@@ -3,17 +3,17 @@
 ## Checks and guidelines
 <!-- Mark your checks with 'x' inside the square brackets -->
 
-* [ ] Have you checked that there aren't other open [Pull Requests](https://github.com/Gabb-c/pokenode-ts/pulls) for the same update/change?
-* [ ] Linting passed `yarn lint:ci`
-* [ ] Integration tests added
-* [ ] Tests passed `yarn test:dev`
-* [ ] Build passed `yarn build:ci`
+* [x] Have you checked that there aren't other open [Pull Requests](https://github.com/Gabb-c/pokenode-ts/pulls) for the same update/change?
+* [x] Linting passed `yarn lint:ci`
+* [ ] Integration tests added  <!-- where are these? -->
+* [ ] Tests passed `yarn test:dev` <!-- one existing failing test on main due to issue in pokeAPI -->
+* [x] Build passed `yarn build:ci`
 
 <!-- You can erase any part of this template if not applicable to your Pull Request. -->
 
 ## Type of change
 
-* [ ] Bug fix
+* [X] Bug fix
 * [ ] New feature
 * [ ] Improvement
 * [ ] Breaking change

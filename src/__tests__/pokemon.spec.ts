@@ -236,10 +236,10 @@ describe('test Pokemon Client', () => {
   });
   it('check if it returns a Pokemon Habitat passing an ID', async () => {
     const data = await client
-      .getPokemonHabitatById(PokemonHabitats.GRASSLAND)
+      .getPokemonHabitatById(PokemonHabitats.MOUNTAIN)
       .then((response: PokemonHabitat) => response);
 
-    expect(data.name).toBe('grassland');
+    expect(data.name).toBe('mountain');
   });
   it('check if it returns a list of Pokemon Habitats', async () => {
     const data = await client
